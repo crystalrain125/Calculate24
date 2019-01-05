@@ -55,7 +55,7 @@ public class Calculator24 {
 					
 				}
 				//do stuff with the number set
-				if (solutions.size() == 0) {
+				if (solutions.size() == 0) { //if more than 4 cards were entered, we may get this result because excess cards are not looked at
 					System.out.println("There were no solutions.");
 				} else {
 					for(ArrayList<String> sol:solutions) {
